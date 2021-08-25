@@ -48,19 +48,19 @@ const Projects = () => {
                             <h5 className="display-4 text-white mb-4">Projects</h5>
                             <form className="mb-4">
                                 <select className="form-select-lg form-select-sm my-3 custom-select" aria-label="default select example" onChange={handleChange} value={skill}>
-                                <option disabled value="none">Filter by skill</option>
+                                    <option disabled value="none">Filter by skill</option>
                                     <option value="All">All</option>
-                                    <option value="HTML">HTML</option>
-                                    <option value="CSS">CSS</option>
-                                    <option value="JavaScript">JavaScript</option>
                                     <option value="API">API</option>
                                     <option value="Bootstrap">Bootstrap</option>
-                                    <option value="React">React</option>
-                                    <option value="Node">Node</option>
+                                    <option value="CSS">CSS</option>
                                     <option value="Express">Express</option>
+                                    <option value="HTML">HTML</option>
+                                    <option value="JavaScript">JavaScript</option>
                                     <option value="Pug">Pug</option>
+                                    <option value="React">React</option>
                                     <option value="Sequelize">Sequelize</option>
                                     <option value="SQL">SQL</option>
+                                    <option value="SVG">SVG</option>
                                 </select>
                             </form>
                         </div>
